@@ -15,7 +15,7 @@ namespace {
 		private $version;
 		private $method;
 		private $flags;
-		public function extract($path, $filename, $password, $extended_data) {}
+		public function extract($path, $filename = '', $password = null, $extended_data = false) {}
 		public function getPosition() {}
 		public function getName() {}
 		public function getUnpackedSize() {}
