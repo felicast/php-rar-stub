@@ -1,0 +1,11 @@
+{
+    "name": "felicast/php-rar-stub",
+    "type": "library",
+    "description": "IDE Stubs for rar extension",
+    "version" : "1.0.0",
+    "keywords": ["IDE","stubs","rar"],
+    "homepage": "https://github.com/felicast/php-rar-stub",
+    "autoload": {
+        "psr-4": { "\\": "src/" }
+    },
+}
