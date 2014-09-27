@@ -3,7 +3,8 @@ namespace
 {
     class RarArchive
     {
-        public function open($filename, $password = null, $volume_callback = null) {}
+        /** @return \RarArchive */
+        public static function open($filename, $password = null, $volume_callback = null) {}
 
         /**
          * @return \RarEntry[]
