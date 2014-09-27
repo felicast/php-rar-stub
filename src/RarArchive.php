@@ -14,8 +14,11 @@ namespace
          * @return \RarEntry
          */
         public function getEntry($filename) {}
+        /** @return boolean */
         public function isSolid() {}
+        /** @return string */
         public function getComment() {}
+        /** @return boolean */
         public function isBroken() {}
         public function setAllowBroken($allow_broken) {}
         public function close() {}
